@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "npm run single",
+    "single": "mocha tests/index.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "selenium-webdriver": "^4.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
